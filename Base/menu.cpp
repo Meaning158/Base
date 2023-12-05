@@ -12,7 +12,7 @@ void menu()
 	cin >> action;
 	while (action != "exit")
 	{
-		if (action == "create a table")
+		if (action == "create_a_table")
 		{
 			createTable();
 		}

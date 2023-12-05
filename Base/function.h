@@ -1,3 +1,4 @@
 #pragma once
+#include "Header.h"
 void menu();
-std::vector<std::string>& createTable();
+table createTable();

@@ -23,3 +23,9 @@ using std::string;
 using std::map;
 using std::set;
 using std::vector;
+
+struct table {
+    string name = "";
+    vector<string> columns = {};
+    vector<vector<string>> rows = {};
+};
